@@ -2,8 +2,11 @@ package tests;
 
 import com.codeborne.selenide.Condition;
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
